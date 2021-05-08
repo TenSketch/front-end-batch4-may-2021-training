@@ -1,0 +1,62 @@
+
+/* tag or element selectors */
+body{
+    
+}
+
+h1{
+    font-size: 80px;
+}
+nav{
+    background: #d8d7d7;   
+    /* height: 15vh; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+img{
+    max-width: 100%;
+    /* height: auto; */
+}
+
+/* class selectors */
+.container{
+    width: min(75rem, 80%);
+    
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul{
+   /* float: right; */
+   list-style: none;
+   margin-left: auto;
+}
+nav ul li{
+
+    float: left;
+    margin-left: 1rem;
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+.logo img{
+    height: 5rem;
+    float: left;
+}
+@media(max-width:576px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+/* id selectors */
+#about-me{
+    height: 50vh;
+    padding: 3rem;
+}
